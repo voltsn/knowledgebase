@@ -1,3 +1,13 @@
+# Table of contents
+- [introduction](#introduction)
+- [Types and expressions](#types_and_expressions)
+    - [Arithmetic](#arithmetic)
+    - [Conditionals](#conditionals)
+        - [Local definitions](#local_definitions)
+- [Introduction on immutability](#introduction_on_immutability)
+- [Pattern matching](#pattern_matching)
+- [Recursion](#recursion)
+
 # Introduction
 
 Haskell is: 
@@ -16,7 +26,7 @@ programs.
 collection.
 - **Compiled**: Haskell programs are compiled to efficient binaries.
 
-## Types and expressions
+# Types and expressions
 Almost everything in Haskell is an expression. There are no statements like in
 Python, Java or C. An expression has a value and a type. Expressions and types
 are written like this: `expression :: type`.
@@ -36,7 +46,7 @@ argumentType -> argument2Type -> returnType
 ...
 ```
 
-## Arthimetic
+## Arithmetic
 There are two division functions in Haskell, `/` and `div`. The `div` function
 does integer division `7 \`div\` 2` while `/` operator does regular division.
 
@@ -74,17 +84,17 @@ circleArea r = let pi = 3.1415926
                in pi * rsquare
 ```
 
-### Introduction on immutability
+# Introduction on immutability
 The values of Haskell definitions can't be changed. Haskell variables aren't 
 boxes into which you can put new values. Haskell variable names are a value.
 
-### Pattern matching
+# Pattern matching
 A definition of a function can consist of multiple equations. The equations
 are matched in order angainst the arguments untill a suitable one is found.
 The `_` case matches anything and is therfore used for default cases. When
 `_` is used as the first case `ghci` gives a warning about this.
 
-### Recursion
+# Recursion
 In Haskell looping is implmented with recursion. Recursion is often a usefull
 way of thinking about solving harder problems.
 ```Haskell
