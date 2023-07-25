@@ -1,4 +1,10 @@
-# User flow diagram
+# Table of contents
+- [What is a user flow diagram](#what_is_user_flow_diagram)
+- [Stages](#stages)
+- [User flow symbols](#user-flow-symbols)
+- [Tips for creating user flow diagrams](#tips-for-creating-user-flow-diagrams)
+
+# What is a user flow diagram
 User flow diagrams describe the steps a user takes from the entry point to
 the end point of our app or website. 
 
