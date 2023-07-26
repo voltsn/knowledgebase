@@ -1,11 +1,11 @@
 # Table of contents
 - [introduction](#introduction)
-- [Types and expressions](#types_and_expressions)
+- [Types and expressions](#types-and-expressions)
     - [Arithmetic](#arithmetic)
     - [Conditionals](#conditionals)
-        - [Local definitions](#local_definitions)
-- [Introduction on immutability](#introduction_on_immutability)
-- [Pattern matching](#pattern_matching)
+        - [Local definitions](#local-definitions)
+- [Introduction on immutability](#introduction-on-immutability)
+- [Pattern matching](#pattern-matching)
 - [Recursion](#recursion)
 
 # Introduction
