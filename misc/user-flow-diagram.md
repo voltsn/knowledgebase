@@ -1,5 +1,5 @@
 # Table of contents
-- [What is a user flow diagram](#what_is_user_flow_diagram)
+- [What is a user flow diagram](#whatis-user-flow-diagram)
 - [Stages](#stages)
 - [User flow symbols](#user-flow-symbols)
 - [Tips for creating user flow diagrams](#tips-for-creating-user-flow-diagrams)
