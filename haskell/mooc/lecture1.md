@@ -1,5 +1,6 @@
 # Table of contents
 - [introduction](#introduction)
+    - [Features](#features)
 - [Types and expressions](#types-and-expressions)
     - [Arithmetic](#arithmetic)
     - [Conditionals](#conditionals)
@@ -25,6 +26,21 @@ programs.
 - **Garbage-collected**: Haskell has automatic memory management via garbage 
 collection.
 - **Compiled**: Haskell programs are compiled to efficient binaries.
+
+## Features
+- **High-order-functions**: functions can take functions as arguments.
+- **Anonymous functions / lambdas**: we can define single use helper
+functions without giving them a name.
+- **Partial application**: A new function can define by giving another 
+function only some of the arguments it needs.
+- **Algebraic datatypes**: A syntax defining defining a datatype that can
+contain a number of different cases.
+- **Patern matching**: Defining functions based on cases that correspond to
+our data definitions.
+- **Lists**
+- **Parameterized types**
+- **Type classes**: A form of polymorphism where we can give a function a
+different implmentation depending on the argument type.
 
 # Types and expressions
 Almost everything in Haskell is an expression. There are no statements like in
