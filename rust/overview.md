@@ -22,6 +22,7 @@ io::stdin()
 - Associated functions are functions that are associate with a type.
 - Match expressions are composed of arms. An arm consists of a pattern
   to match against the value that was passed in.
+- To compile a rust program we use the `rustc` command.
 ```Rust
 match guess.cmp(&secret_number) {
         Ordering::Less => println!("Too small");
