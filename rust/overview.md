@@ -33,12 +33,12 @@ match guess.cmp(&secret_number) {
 # Build system and package managers
 
 - Cargo is rust's build system and package manager.
-- A cargo project is create with `create new <project_name>`.
+- A cargo project is created with `create new <project_name>`.
 - `cargo new` creates a src folder and a `Cargo.toml` for configurating cargo. 
   If a cargo project is not created in a version control repo. It will create one.
 - Packages are refferd to as _creates_.
-- `cargo build` buils our project. By default is debug build. passing it the
-  `--release` flag `cargo` creates a release build.
+- `cargo build` builds a project. The default build is debug. passing it the
+  `--release` flag, `cargo` creates a release build.
 - `Cargo.lock` keeps track of the versions of the dependencies.
 - `cargo run` compiles and runs a project.
 - `cargo check` check the code to see if it compiles but it does not create a
