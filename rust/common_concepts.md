@@ -38,7 +38,7 @@
   - Booleans
   - Characters
 
-## Integer types
+### Integer types
 
 - There are multiple integer types in rust
 
@@ -69,3 +69,67 @@
 | Byte (u8 only)  | b'A'        |
 
 - The default integer type is i32.
+
+### Floating point types
+
+- There are two primitives for flaoting point numbers:
+ - `f32` single precision float.
+ - `f64` double precision float.
+- By default floating point numbers have the `f64` type.
+
+
+### Boolean types
+
+- In rust booleans are specified with `bool`.
+- They are one byte in size.
+
+### The character type
+
+- Specified using single quotes.
+- Its four bytes in size, represents a unicode scalar value.
+
+## Compound types
+
+
+### The tuple type
+
+- Are fixed in length.
+- Its a comma separated list of values, that can be of different types.
+- We can use pattern matching to destructure a tuple, `let (x, y, z) = tup;`.
+- Values can be accessed directly via theire index `let one = x.2;`.
+- A tuple without any values is called a **unit**. Expressions implicitly 
+  return this value if they don't return any other value.
+
+### Array type
+
+- Every element of an array must have the same type.
+- They have a fixed length.
+- Data allocated on the stack.
+
+# Functions
+
+- `fn`is used to declare new functions.
+- Rust doesn't care about the order of declaration of functions. 
+- In rust the return value of a function is the final expression in the body
+  of the function.
+
+# Control flow
+
+- `if` conditions should always be of boolean type.
+
+# Repetition with loops
+
+- Rust has three kinds of loops:
+ - `loop`, used to retry operations that might fail.
+ ```Rust
+ fn main() {
+    loop {
+      println!("again");
+    }
+ }
+ ```
+ - `while`
+ - `for`
+- Loops can be labeled, and that label can be used in combination with `break`
+  and `continue` to specify to wich loop they apply.
+ 
