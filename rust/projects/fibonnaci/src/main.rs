@@ -15,7 +15,7 @@ fn main() {
 
     let fibo_number = fibo(number);
 
-    println!("The {number} number is: {fibo_number}");
+    println!("The {number}th number is: {fibo_number}");
 }
 
 fn fibo(x: i32) -> i32 {
@@ -27,6 +27,6 @@ fn fibo(x: i32) -> i32 {
     if x == 1 {
         return 1;
     }
-
+    
     fibo(x-1) + fibo(x-2)
 }
