@@ -16,7 +16,7 @@
       enough and returns a pointer to that location.
     - Pushing to the stack is faster then allocating memory.
     - Accessing data on the heap is slower than accessing data on the stack,
-      because we must follow the poiter to get there.
+      because we must follow the pointer to get there.
 
 > Pushing values to the stack is not considered allocating.
 
@@ -62,9 +62,9 @@
 - Rust allows for returning multiple values using a tuple.
 - Rust's feature for using a value without transferring ownership is called 
   _references_.
-- A reference is similar to a pointer in that it's and address in memory, 
+- A reference is similar to a pointer in that its an address in memory, 
   however a reference will always point to a valid value for the life of that
-  refernce.
+  reference.
 - `&` represents a refference. The opppiste of a reference is called 
   dereferencing and its represented by `*`.
 - Creating a reference is called _borrowing_. 
@@ -90,7 +90,7 @@
 ## The slice type
 
 - Slices lets us reference a contiguous sequence of elements in a collection.
-- Slice is a kind of reference, therefore it does not have ownership.
+- A slice is a kind of reference, therefore it does not have ownership.
 
 ## String slices
 
