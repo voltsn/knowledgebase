@@ -27,7 +27,7 @@ struct User {
   of a function inside a struct under the condition that the fields of the 
   struct are indentical to the parameters name.
 ```rust
-fn build_user(emial: String, username: String) -> User {
+fn build_user(email: String, username: String) -> User {
     User {
         active: true,
         username,
@@ -37,8 +37,8 @@ fn build_user(emial: String, username: String) -> User {
 }
 ```
 
-- Its possible to create instance from other instances using the _struct update
-  syntax_.
+- Its possible to create an instance from other instances using the _struct 
+  update syntax_.
 ```rust
 let user2 = User {
     email: String::from("another@example.com"),
@@ -73,7 +73,7 @@ fn main() {
 ## Structs without any fields
 
 - Structs without any fields are called **unit-like structs**.
-- They similarly to `()`.
+- They behave similarly to `()`.
 - Useful when:
     - We need to implement a trait on some type but don't have any data
       to store in the type itself.
